@@ -8,6 +8,8 @@ import productRoutes from "./routes/ProductRoutes.js";
 import dbConnect from "./config/database.js";
 import cors from "cors";
 import path from "path";
+import {fileURLToPath} from "url
+    
 
 
 
@@ -17,7 +19,8 @@ dotenv.config();
 // dB call
 dbConnect();
 
-
+const  __filename = fileURLToPath(import.meta.url);
+const  __dirname  = path.dirname(__filename)
 const app = express();
 
 
