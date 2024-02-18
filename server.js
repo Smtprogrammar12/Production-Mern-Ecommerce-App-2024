@@ -8,7 +8,7 @@ import productRoutes from "./routes/ProductRoutes.js";
 import dbConnect from "./config/database.js";
 import cors from "cors";
 import path from "path";
-import {fileURLToPath} from "url
+import {fileURLToPath} from "url"
     
 
 
